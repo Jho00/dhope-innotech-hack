@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\ParserForm\ParserForm\bin\Debug\ParserForm.exe.config
+C:\Users\Admin\source\repos\ParserForm\ParserForm\bin\Debug\ParserForm.exe
+C:\Users\Admin\source\repos\ParserForm\ParserForm\bin\Debug\ParserForm.pdb
+C:\Users\Admin\source\repos\ParserForm\ParserForm\obj\Debug\ParserForm.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\ParserForm\ParserForm\obj\Debug\ParserForm.Form1.resources
+C:\Users\Admin\source\repos\ParserForm\ParserForm\obj\Debug\ParserForm.Properties.Resources.resources
+C:\Users\Admin\source\repos\ParserForm\ParserForm\obj\Debug\ParserForm.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\ParserForm\ParserForm\obj\Debug\ParserForm.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ParserForm\ParserForm\obj\Debug\ParserForm.exe
+C:\Users\Admin\source\repos\ParserForm\ParserForm\obj\Debug\ParserForm.pdb
