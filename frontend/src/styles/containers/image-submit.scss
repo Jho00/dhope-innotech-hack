@@ -1,0 +1,59 @@
+.attach-input {
+  margin-bottom: 20px;
+}
+
+.attach-item {
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #fff;
+}
+
+.attach-item-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+.attach-button {
+  display: block;
+  margin: 0 auto;
+  padding: 13px 55px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  border: 1px solid transparent;
+  color: #2f3237;
+  text-transform: uppercase;
+}
+
+.attach-button-active,
+.attach-button:hover {
+  background: linear-gradient(85.6deg, #70a0ff 0%, rgba(#5790ff, 0.15) 100%);
+  color: #fff;
+}
+
+.attach-button-active {
+  border-color: #fff;
+}
+
+.input {
+  margin-bottom: 180px;
+}
+
+.profiles-title {
+  margin-bottom: 15px;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+
+  color: #fff;
+}

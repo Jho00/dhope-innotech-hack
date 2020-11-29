@@ -1,0 +1,15 @@
+.main-page {
+  display: flex;
+}
+
+.main-page-column {
+  flex-shrink: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.profile-column {
+  width: calc(100vw - 370px);
+  padding: 30px 50px;
+}

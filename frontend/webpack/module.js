@@ -9,12 +9,11 @@ module.exports = {
     // scss
     {
       test: /\.scss/,
-      use: [
+      loader: [
         {
           loader: MiniCssExtractPlugin.loader,
           options: {
-            // sourceMap: true,
-            esModule: true,
+            esModule: false,
             modules: {
               namedExport: true,
             },
@@ -24,6 +23,7 @@ module.exports = {
           loader: 'css-loader',
           options: {
             sourceMap: true,
+            esModule: true,
             importLoaders: 1,
             localsConvention: 'camelCase',
             modules: {
@@ -44,7 +44,7 @@ module.exports = {
         {
           loader: 'sass-loader',
           options: {
-            // sourceMap: true,
+            sourceMap: true,
           },
         },
       ],

@@ -1,0 +1,80 @@
+.profile {
+}
+
+.main-info {
+  background: #fff;
+  display: flex;
+}
+
+.column {
+  flex-basis: 33%;
+  padding: 15px 60px 15px 0;
+}
+
+.column-image {
+  padding: 0 60px 0 0;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: 280px;
+
+  color: #d5d6d7;
+
+  background: #f4f4f4 center center no-repeat;
+  background-size: cover;
+}
+
+.profile-image-icon {
+  width: 26px;
+  height: 27px;
+  margin: 0 auto 24px;
+}
+
+.profile-image-searching {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.field {
+  margin-bottom: 23px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.field-label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #d5d6d7;
+  text-transform: uppercase;
+}
+
+.field-value {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+
+  color: #2f3237;
+}
+
+.field-value-loading {
+  width: 151px;
+  height: 17px;
+
+  background: #f4f4f4;
+}
+
+.field-value-invalid {
+  color: rgba(#2f3237, 0.6);
+}

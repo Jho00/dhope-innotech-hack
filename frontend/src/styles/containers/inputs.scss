@@ -2,19 +2,33 @@ $primary: #4884fa;
 $secondary: #fff;
 
 .inputs {
+  width: 370px;
+  height: 100vh;
+  padding: 30px;
   background: $primary;
+  transition: width 0.3s;
+}
+
+.input-full-width {
+  width: 100vw;
 }
 
 .nav-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 35px;
 }
 
 .nav-button {
   margin: 0 12px 0 0;
   padding: 0 15px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   font-size: 14px;
+  line-height: 18px;
 
   color: $secondary;
   background: $primary;
@@ -22,13 +36,14 @@ $secondary: #fff;
 
   border: 1px solid $secondary;
   border-radius: 11px;
-  box-shadow: 0px 4px 30px 0px #122c5f 20%;
+  box-shadow: 0px 4px 30px 0px rgba(#122c5f, 0.2);
 
   &:last-child {
     margin-right: 0;
   }
 }
 
+.nav-button:hover,
 .nav-button-active {
   background-color: $secondary;
   color: $primary;

@@ -1,0 +1,67 @@
+$height: 46px;
+
+.text-input {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: $height;
+}
+
+.input {
+  padding: 0 15px;
+  width: 100%;
+}
+
+.button {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: $height;
+  background: linear-gradient(to left, #fff, #fff);
+  color: #2f3237;
+
+  box-shadow: 0px 4px 30px rgba(18, 44, 95, 0.2);
+  cursor: pointer;
+
+  transition: box-shadow 0.3s;
+
+  &:hover:not(:disabled) {
+    background: linear-gradient(85.6deg, #70a0ff 0%, rgba(#5790ff, 0.15) 100%);
+    color: white;
+  }
+
+  &:disabled {
+    cursor: default;
+    color: rgba(#2f3237, 0.5);
+    box-shadow: none;
+  }
+}
+
+.button-icon {
+  width: 17px;
+  height: 17px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  padding: 0 10px;
+
+  color: #fff;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.message-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 9px;
+  color: #ec9191;
+}
